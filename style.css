@@ -5,20 +5,39 @@ body{
 }
 a{
     text-decoration:none;
-    color:black;
     justify-content: space-between;
     
 }
 
 #welcome-section{
     height: 100vh;
+    background-color: rgba(255, 255, 255, 0.651);
+    width: 80%;
+    border-radius: 20px;
+    border-width: 2px;
+    margin-left: auto;
+    min-width: 350px;
+
     
 
 }
 #welcome-text{
+    text-align: center;
+    margin-top: 30%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 250%;
+    color: rgba(0, 0, 0, 0.733)
+    
     
 }
-
+#logo {
+    height: 90px;
+    margin-top: 0%;
+    margin-left: 45%;
+    align-self: center;
+    opacity: 50%;
+    lighting-color: rgba(255, 255, 255, 0.651);
+}
 
 @media (max-width:600px){
 
@@ -28,4 +47,11 @@ a{
    background-position-y: top;
    position: fixed;
    top: 0%;
+}
+
+#background{
+    background-image: url(./work1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
