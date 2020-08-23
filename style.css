@@ -1,7 +1,24 @@
+body{
+    display:flex;
+    justify-content: center;
+    
+}
+a{
+    text-decoration:none;
+    color:black;
+    justify-content: space-between;
+    
+}
+
 #welcome-section{
     height: 100vh;
+    
 
 }
+#welcome-text{
+    
+}
+
 
 @media (max-width:600px){
 
